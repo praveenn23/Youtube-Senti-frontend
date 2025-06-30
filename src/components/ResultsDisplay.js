@@ -13,7 +13,6 @@ const ResultsDisplay = ({ data }) => {
     total_comments = 0,
     sentiment_distribution = {},
     average_scores = {},
-    chart_data = [],
     sample_comments = []
   } = data;
 
