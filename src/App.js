@@ -5,6 +5,8 @@ import './App.css';
 function App() {
   const DEFAULT_API_KEY = 'AIzaSyAdy0uk4cYfx8nFMmgOEOk0H01MKfNIU28';
 
+  const API_URL = process.env.REACT_APP_API_URL || "http://localhost:5000";
+
   const [formData, setFormData] = useState({
     videoUrl: '',
     apiKey: DEFAULT_API_KEY,
