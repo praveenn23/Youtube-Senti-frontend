@@ -29,7 +29,7 @@ function App() {
     setResults(null);
 
     try {
-      const response = await fetch(`${process.env.REACT_APP_API_URL}/api/analyze`, ...), {
+      const response = await fetch(`${API_URL}/api/analyze), {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
